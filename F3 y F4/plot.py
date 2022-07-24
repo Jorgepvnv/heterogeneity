@@ -47,7 +47,7 @@ for ii, i in enumerate(eps):
     lines=F.readlines()
     for x in lines:
         gamma.append(float(x.split()[0]))
-        rd.append(float(x.split()[7]))
+        rd.append(float(x.split()[1]))
     plt.plot(gamma,rd, color = colors[ii], label = labelss[ii])
     # plt.scatter(gamma,rd,c='white', marker='s',edgecolor =colors[ii],s = 20)
     plt.scatter(gamma,rd,c='white', marker='s',edgecolor =colors[ii],s = 20)
