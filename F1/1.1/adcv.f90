@@ -48,7 +48,7 @@
     real :: mdesvcv = 0.
     integer :: count = 1
     real, parameter :: pi = 3.141592653
-    real:: pt = 0.5     ! probabilidad de teletransportar neurona
+    real:: pt = 0.5     ! probabilidad de teletransportar neurona (varepsilon en el paper)
     character (len=15)::filename
     character(len=4)::argumento
     character(len=4)::argumento2
