@@ -1,0 +1,2 @@
+Sólo es necesario ejecutar el script plot.py, cambiándolo en función de qué se quiere plottear (act. media, fluctuaciones, cv)
+Para reproducirlo, se manda fase.f90 con el script para el proteus, luego se ejecuta el script de python para obtener las matrices correspondientes a los diagramas 2D (documentos amean, desv, cv), ejecutando el script plot.py
