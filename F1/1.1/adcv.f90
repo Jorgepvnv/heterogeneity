@@ -49,7 +49,6 @@
     integer :: count = 1
     real, parameter :: pi = 3.141592653
     real:: pt = 0.5     ! probabilidad de teletransportar neurona
-    real, parameter :: epsilon = 0.0        ! grado de heterogeneidad
     character (len=15)::filename
     character(len=4)::argumento
     character(len=4)::argumento2
@@ -216,9 +215,9 @@
                         if (lambda<0) then
                             prjen = 1.
                         else if (lambda<=1.) then
-                            prjen = 1.-lambda*(1-epsilon)
+                            prjen = 1.-lambda
                         else
-                            prjen = epsilon
+                            prjen = 0
                         endif
                         call random_number(rand1)
                         if (rand1<(prjen)) then
