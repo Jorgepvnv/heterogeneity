@@ -19,7 +19,7 @@ plt.ylabel(r'$s$', fontsize=10)
 ncol = 5
 color1 = plt.cm.viridis(np.linspace(0,1,ncol)) # para añadir mas, alterar esto
 
-names = ['0.txt','005.txt','02.txt','05-2.txt']  # para añadir mas, meter aqui 
+names = ['0.txt','005.txt','02.txt','05.txt']  # para añadir mas, meter aqui 
 # names.reverse()
 labls = [r'$\varepsilon=0.0$',r'$\varepsilon=0.05$',r'$\varepsilon=0.2$',r'$\varepsilon=0.5$',]
 
