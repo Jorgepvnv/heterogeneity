@@ -1,0 +1,8 @@
+#!/bin/bash
+for param1 in `seq 0 1 70`; #gam
+do
+	for param2 in `seq 0 1 40`; #pt
+	do
+		slanzarv -nomail -m 2000 test.exe $param1 $param2
+	done
+done
